@@ -310,13 +310,13 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2 sm:space-x-3">
               <img
-                src="/modern.jpg"
+                src="/logo.jpg"
                 alt="The Modernist Logo"
                 className="h-8 sm:h-10 md:h-12 w-auto"
               />
               <div className="flex flex-col">
                 <span className="text-sm sm:text-lg md:text-xl font-bold text-gray-900 cursive-font">
-                  The Modernist
+                  The Modernest
                 </span>
                 <span className="text-xs text-gray-600 italic hidden sm:block">
                   Let you be happy
@@ -444,7 +444,7 @@ export default function Home() {
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Welcome to
                 <span className="text-blue-600 relative cursive-font">
-                  <span className="relative z-10"> The Modernist</span>
+                  <span className="relative z-10"> The Modernest</span>
                   <motion.div
                     initial={{ scaleX: 0 }}
                     animate={{ scaleX: 1 }}
@@ -532,7 +532,7 @@ export default function Home() {
             className="text-center mb-8 sm:mb-16"
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 cursive-font px-4">
-              About The Modernist
+              About The Modernest
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
               Pioneering the future of technology education and support
@@ -905,7 +905,7 @@ export default function Home() {
                   <MapPin className="h-5 w-5 text-blue-600" />
                   <span className="text-sm sm:text-base text-gray-700">
                     {" "}
-                    Khilkhet ,151(a) ,Bot-tola, Dhaka-1229
+                    Khilkhet-151(a) ,Bot-tola, Dhaka-1229
                   </span>
                 </div>
               </div>
@@ -994,16 +994,13 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <Image
-                  src="/modern.jpg"
+                <img
+                  src="/logo.jpg"
                   alt="The Modernist Logo"
                   className="h-8 w-auto brightness-0 invert"
-                  width={100}
-                  height={100}
-                  unoptimized
                 />
                 <span className="text-lg sm:text-xl font-bold cursive-font">
-                  The Modernist
+                  The Modernest
                 </span>
               </div>
               <p className="text-sm sm:text-base text-gray-400">
@@ -1125,7 +1122,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm sm:text-base text-gray-400">
             <p>
-              &copy; 2025 The Modernist. All rights reserved. Let you be happy.
+              &copy; 2025 The Modernest. All rights reserved. Let you be happy.
             </p>
           </div>
         </div>
