@@ -5,6 +5,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+   basePath: process.env.NODE_ENV === 'production' ? '/the-modernist' : '',
 };
 
 module.exports = nextConfig;
