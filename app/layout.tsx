@@ -12,32 +12,7 @@ export const metadata: Metadata = {
   creator: 'The Modernest',
   publisher: 'The Modernest',
   robots: 'index, follow',
-  openGraph: {
-    title: 'The Modernest - Let You Be Happy',
-    description: 'Premier technology support services including web development, mobile app development, CISCO networking, and exam preparation.',
-    url: 'https://themodernest.com',
-    siteName: 'The Modernest',
-    locale: 'en_US',
-    type: 'website',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'The Modernest - Technology Excellence Made Simple',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'The Modernest - Let You Be Happy',
-    description: 'Premier technology support services including web development, mobile app development, CISCO networking, and exam preparation.',
-    images: ['/og-image.jpg'],
-  },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
-  },
+  metadataBase: new URL('https://Mohammad-Taizul-Islam.github.io'), 
 };
 
 export default function RootLayout({

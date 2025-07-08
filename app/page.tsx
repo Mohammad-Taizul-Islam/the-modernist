@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import {
   Code,
   Smartphone,
@@ -310,7 +311,7 @@ export default function Home() {
             <div className="flex items-center space-x-2 sm:space-x-3">
               <img
                 src="/modern.jpg"
-                alt="The Modernest Logo"
+                alt="The Modernist Logo"
                 className="h-8 sm:h-10 md:h-12 w-auto"
               />
               <div className="flex flex-col">
@@ -763,7 +764,7 @@ export default function Home() {
 
             <div className="flex justify-center mt-8 space-x-2">
               {testimonials.map((_, index) => (
-                  <button
+                <button
                   key={index}
                   onClick={() => setActiveTestimonial(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
@@ -993,10 +994,13 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <img
-                  src="/I need a logo with cursive _M_ in bellow will be a love sign icon and then below  (small front _The modernest_) and then bellow will be (italic  front _pro 1440_) and at the bottom of the logo there will be slogan _Let tou be happy_.jpg"
-                  alt="The Modernest Logo"
+                <Image
+                  src="/modern.jpg"
+                  alt="The Modernist Logo"
                   className="h-8 w-auto brightness-0 invert"
+                  width={100}
+                  height={100}
+                  unoptimized
                 />
                 <span className="text-lg sm:text-xl font-bold cursive-font">
                   The Modernist
