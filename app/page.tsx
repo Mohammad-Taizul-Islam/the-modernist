@@ -312,7 +312,7 @@ export default function Home() {
               <img
                 src="/logo.jpg"
                 alt="The Modernist Logo"
-                className="h-8 sm:h-10 md:h-12 w-auto"
+                className="h-9 sm:h-10 md:h-12 w-auto"
               />
               <div className="flex flex-col">
                 <span className="text-sm sm:text-lg md:text-xl font-bold text-gray-900 cursive-font">
