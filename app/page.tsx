@@ -26,6 +26,7 @@ import {
   Wifi,
   Video,
   Headphones,
+  BrainCog
 } from "lucide-react";
 
 export default function Home() {
@@ -98,16 +99,16 @@ export default function Home() {
       ],
     },
     {
-      icon: Network,
-      title: "CISCO Networking Support",
+      icon: BrainCog, // Using Lucide's AI-themed icon
+      title: "AI Development & Support",
       description:
-        "Professional networking solutions and CISCO infrastructure support",
-      price: "From $75/hour",
+        "Professional AI solutions including machine learning and intelligent system support",
+      price: "From $120/hour", // Adjusted price for AI services
       features: [
-        "Network Design",
-        "CISCO Configuration",
-        "Security Setup",
-        "Troubleshooting",
+        "AI Model Development",
+        "Machine Learning Configuration",
+        "Neural Network Setup",
+        "Data Processing & Analysis",
         "Performance Optimization",
       ],
     },
@@ -310,10 +311,18 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2 sm:space-x-3">
               <img
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="The Modernist Logo"
-                className="h-9 sm:h-10 md:h-12 w-auto"
+                className="h-9 sm:h-10 md:h-12 object-contain filter grayscale-0 hover:grayscale-0"
               />
+              {/* <Image
+                src="/logo.png"
+                alt="The Modernist Logo"
+                width={200} // Approximate display width in pixels
+                height={80} // Approximate display height
+                quality={100} // Adjust compression (1-100)
+                className="-mt-8"
+              /> */}
               <div className="flex flex-col">
                 <span className="text-sm sm:text-lg md:text-xl font-bold text-gray-900 cursive-font">
                   The Modernest
