@@ -491,7 +491,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      
       {/* Stats Section */}
+
       <section className="py-8 sm:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
@@ -966,7 +969,7 @@ export default function Home() {
                       Mobile App Dev Support
                     </option>
                     <option value="CISCO Networking Support">
-                      CISCO Networking Support
+                      AI Development Support
                     </option>
                     <option value="Exam Preparation">Exam Preparation</option>
                   </select>
@@ -1004,9 +1007,9 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="/logo.jpg"
+                  src="/logo.png"
                   alt="The Modernist Logo"
-                  className="h-8 w-auto brightness-0 invert"
+                  className="h-8 w-auto  "
                 />
                 <span className="text-lg sm:text-xl font-bold cursive-font">
                   The Modernest
@@ -1043,7 +1046,7 @@ export default function Home() {
                     onClick={() => scrollToSection("services")}
                     className="hover:text-white transition-colors"
                   >
-                    CISCO Networking
+                    AI Development
                   </button>
                 </li>
                 <li>
